@@ -78,7 +78,7 @@ function draw(){
   }
       score=score+Math.round(frameCount/100);
   
-    if(score>0 && score%200===0){
+    if(score>0 && score%2000===0){
       checkpointSound.play();
     }
   }
